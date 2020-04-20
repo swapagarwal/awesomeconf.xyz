@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -19,7 +19,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #f8234a;
   outline: none;
   text-decoration: none;
@@ -30,8 +32,13 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -55,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #fff url('../img/preloader.svg') no-repeat center center;
 }
 
 /* Back to top button */
@@ -164,7 +171,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#header.header-scrolled, #header.header-fixed {
+#header.header-scrolled,
+#header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
   padding: 15px 0;
@@ -176,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -186,7 +194,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #f82249;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
 }
 
@@ -200,7 +209,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -243,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sf-arrows .sf-with-ul:after {
-  content: "\f107";
+  content: '\f107';
   position: absolute;
   right: 15px;
   font-family: FontAwesome;
@@ -252,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
+  content: '\f105';
 }
 
 /* Nav Meu Container */
@@ -273,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -285,7 +295,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-menu .menu-active a, .nav-menu a:hover {
+.nav-menu .menu-active a,
+.nav-menu a:hover {
   color: #fff;
 }
 
@@ -294,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 2px;
@@ -305,7 +316,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover > a:before,
+.nav-menu .menu-active > a:before {
   visibility: visible;
   width: 100%;
 }
@@ -328,7 +341,8 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before, .nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.buy-tickets:hover a:before,
+.nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
 }
 
@@ -493,7 +507,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro:before {
-  content: "";
+  content: '';
   background: rgba(6, 12, 34, 0.8);
   position: absolute;
   bottom: 0;
@@ -524,7 +538,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -624,7 +638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -671,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url('../img/about-bg.jpg');
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -686,7 +700,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about:before {
-  content: "";
+  content: '';
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
   bottom: 0;
@@ -878,7 +892,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .tab-pane {
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
 }
 
 #schedule .schedule-item {
@@ -950,7 +964,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url('../img/venue-info-bg.jpg') top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -958,7 +972,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info:before {
-  content: "";
+  content: '';
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
   bottom: 0;
@@ -1068,7 +1082,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#gallery .owl-nav, #gallery .owl-dots {
+#gallery .owl-nav,
+#gallery .owl-dots {
   margin-top: 25px;
   text-align: center;
 }
@@ -1157,7 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1193,7 +1208,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed i::before {
-  content: "\f055" !important;
+  content: '\f055' !important;
 }
 
 /*--------------------------------------------------------------
@@ -1208,7 +1223,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe:before {
-  content: "";
+  content: '';
   background: rgba(6, 12, 34, 0.6);
   position: absolute;
   bottom: 0;
@@ -1223,7 +1238,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#subscribe .section-header h2, #subscribe p {
+#subscribe .section-header h2,
+#subscribe p {
   color: #fff;
 }
 
@@ -1276,7 +1292,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1322,7 +1338,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #e0072f;
 }
 
-#buy-tickets #buy-ticket-modal input, #buy-tickets #buy-ticket-modal select {
+#buy-tickets #buy-ticket-modal input,
+#buy-tickets #buy-ticket-modal select {
   border-radius: 0;
 }
 
@@ -1359,7 +1376,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f82249;
 }
 
-#contact .contact-info address, #contact .contact-info p {
+#contact .contact-info address,
+#contact .contact-info p {
   margin-bottom: 0;
   color: #112363;
 }
@@ -1380,12 +1398,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f82249;
 }
 
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
     padding: 20px 0;
   }
 }
@@ -1431,7 +1453,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1443,13 +1465,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
   background-color: #f82249;
 }
 
@@ -1461,7 +1485,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 12px 15px;
 }
 
-#contact .php-email-form button[type="submit"] {
+#contact .php-email-form button[type='submit'] {
   background: #f82249;
   border: 0;
   padding: 10px 40px;
@@ -1471,7 +1495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#contact .php-email-form button[type="submit"]:hover {
+#contact .php-email-form button[type='submit']:hover {
   background: #e0072f;
 }
 
@@ -1517,7 +1541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1531,7 +1555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
 }
 
@@ -1610,13 +1634,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-newsletter input[type="email"] {
+#footer .footer-top .footer-newsletter input[type='email'] {
   border: 0;
   padding: 6px 8px;
   width: 65%;
 }
 
-#footer .footer-top .footer-newsletter input[type="submit"] {
+#footer .footer-top .footer-newsletter input[type='submit'] {
   background: #f82249;
   border: 0;
   width: 35%;
@@ -1627,7 +1651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+#footer .footer-top .footer-newsletter input[type='submit']:hover {
   background: #e0072f;
 }
 
@@ -1640,4 +1664,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.img-host {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 4px solid #f82249;
+}
+
+.panellist {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.panellist img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 1rem;
+  box-shadow: 0 0 8px 2px #ccc;
+}
+
+.panellist h5 {
+  padding-top: 0.25em;
+  margin-bottom: 0.25em;
 }
