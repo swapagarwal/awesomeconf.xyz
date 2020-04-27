@@ -1168,7 +1168,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #ddd;
 }
 
-#faq #faq-list a {
+#faq #faq-list li > a {
   padding: 18px 0;
   display: block;
   position: relative;
