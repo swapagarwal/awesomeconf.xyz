@@ -659,6 +659,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#intro .ticket-btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #f82249;
+}
+
+#intro .ticket-btn:hover {
+  color: #fff;
+  border: 2px solid #f82249;
+  background: none;
+}
+
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
