@@ -116,7 +116,11 @@
           class="play-btn mb-4"
         ></a>
         <a href="#about" class="about-btn scrollto">About The 2020 Edition</a>
-        <a href="https://www.townscript.com/v1/e/awesomeconf-2020-232440/booking" class="ticket-btn">Book your spot</a>
+        <a
+          href="https://www.townscript.com/v1/e/awesomeconf-2020-232440/booking"
+          class="ticket-btn"
+          >Book your spot</a
+        >
       </div>
     </section>
     <!-- End Intro Section -->
@@ -162,11 +166,7 @@
 
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="#day-1"
-                role="tab"
-                data-toggle="tab"
+              <a class="nav-link" href="#day-1" role="tab" data-toggle="tab"
                 >Day 1 &centerdot; Dev</a
               >
             </li>
@@ -186,11 +186,7 @@
 
           <div class="tab-content row justify-content-center">
             <!-- Schdule Day 1 -->
-            <div
-              role="tabpanel"
-              class="col-lg-9 tab-pane fade show active"
-              id="day-1"
-            >
+            <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-1">
               <div class="row schedule-item">
                 <div class="col-md-2"><time>09:55 AM</time></div>
                 <div class="col-md-10">
@@ -851,6 +847,12 @@
     <!-- End  Footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <script>
+      const hash = document.location.hash
+      const selector = /^#(design|day-2)$/i.test(hash) ? '#day-2' : '#day-1'
+      document.querySelector(`a[href="${selector}"]`).classList.add('active')
+      document.querySelector(selector).classList.add('show', 'active')
+    </script>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
