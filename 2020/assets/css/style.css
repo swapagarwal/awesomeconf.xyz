@@ -8,27 +8,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root {
-  --brand: #59CD90;
-  --white: #f6f7fd;
-  --black: #152b79;
-}
-
 body {
-  background: var(--white);
+  background: #fff;
   color: #2f3138;
   font-family: 'Open Sans', sans-serif;
 }
 
 a {
-  color: var(--brand);
+  color: #f82249;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: var(--brand);
+  color: #f8234a;
   outline: none;
   text-decoration: none;
 }
@@ -68,15 +62,15 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: var(--white) url('../img/preloader.svg') no-repeat center center;
+  background: #fff url('../img/preloader.svg') no-repeat center center;
 }
 
 /* Back to top button */
 .back-to-top {
   position: fixed;
   display: none;
-  background: var(--brand);
-  color: var(--white);
+  background: #f82249;
+  color: #fff;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -99,13 +93,13 @@ h6 {
 
 .back-to-top:focus {
   background: #e0072f;
-  color: var(--white);
+  color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
   background: #e0072f;
-  color: var(--white);
+  color: #fff;
 }
 
 /* Sections Header
@@ -122,7 +116,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: var(--brand);
+  background: #f82249;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -179,7 +173,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: var(--white);
+  background: rgba(6, 12, 34, 0.98);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -197,12 +191,12 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: var(--black);
+  color: #fff;
 }
 
 #header #logo img {
@@ -288,7 +282,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: var(--black);
+  color: rgba(202, 206, 221, 0.8);
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -303,7 +297,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: var(--black);
+  color: #fff;
 }
 
 .nav-menu > li {
@@ -317,7 +311,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--brand);
+  background-color: #f82249;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -330,11 +324,11 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a {
-  color: var(--white);
-  background: var(--brand);
+  color: #fff;
+  background: #f82249;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid var(--brand);
+  border: 2px solid #f82249;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -344,7 +338,6 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a:hover {
-  color: var(--brand);
   background: none;
 }
 
@@ -357,7 +350,7 @@ h6 {
   margin: 4px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: var(--white);
+  background: #fff;
   border-radius: 3px;
 }
 
@@ -376,8 +369,8 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: var(--brand);
-  color: var(--white);
+  background: #f82249;
+  color: #fff;
 }
 
 .nav-menu ul ul {
@@ -401,7 +394,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: var(--white);
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -435,7 +428,7 @@ h6 {
 }
 
 #mobile-nav ul li a {
-  color: var(--white);
+  color: #fff;
   font-size: 17px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -447,7 +440,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #mobile-nav ul li li {
@@ -460,15 +453,15 @@ h6 {
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: var(--white);
+  color: #fff;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #mobile-body-overly {
@@ -492,7 +485,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
-  color: var(--white);
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -501,7 +494,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  /* background: url(../img/intro-bg.jpg) top center; */
+  background: url(../img/intro-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -515,7 +508,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: '';
-  /* background: rgba(6, 12, 34, 0.8); */
+  background: rgba(6, 12, 34, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -544,7 +537,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: var(--black);
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -552,7 +545,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: var(--brand);
+  color: #f82249;
 }
 
 @media (max-width: 991px) {
@@ -562,7 +555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro p {
-  color: var(--black);
+  color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
 }
@@ -576,7 +569,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--brand) 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -593,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid var(--white);
+  border-left: 15px solid #fff;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
@@ -622,7 +615,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid var(--brand);
+  border-left: 15px solid #f82249;
   transform: scale(20);
 }
 
@@ -637,7 +630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid var(--white);
+  border-left: 15px solid #fff;
   z-index: 200;
   -webkit-animation: none;
   animation: none;
@@ -655,15 +648,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: var(--white);
+  color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid var(--brand);
+  border: 2px solid #f82249;
 }
 
 #intro .about-btn:hover {
-  background: var(--brand);
-  color: var(--white);
+  background: #f82249;
+  color: #fff;
 }
 
 #intro .ticket-btn {
@@ -677,15 +670,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: var(--white);
+  color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: var(--brand);
+  background: #f82249;
 }
 
 #intro .ticket-btn:hover {
-  color: var(--brand);
-  border: 2px solid var(--brand);
+  color: #fff;
+  border: 2px solid #f82249;
   background: none;
 }
 
@@ -719,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: var(--white);
+  color: #fff;
   padding: 60px 0 40px 0;
 }
 
@@ -743,7 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: var(--white);
+  color: #fff;
 }
 
 #about h3 {
@@ -751,13 +744,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: var(--white);
+  color: #fff;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: var(--white);
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -785,14 +778,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details h3 {
-  color: var(--white);
+  color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 #speakers .speaker .details p {
-  color: var(--white);
+  color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
@@ -803,11 +796,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a {
-  color: var(--white);
+  color: #fff;
 }
 
 #speakers .speaker .details a:hover {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #speakers .speaker:hover .details {
@@ -842,8 +835,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: var(--brand);
-  color: var(--white);
+  background: #f82249;
+  color: #fff;
 }
 
 #speakers-details .details .social a i {
@@ -881,7 +874,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   font-weight: 600;
   background-color: #0e1b4d;
-  color: var(--white);
+  color: #fff;
   padding: 10px 100px;
 }
 
@@ -904,8 +897,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: var(--brand);
-  color: var(--white);
+  background-color: #f82249;
+  color: #fff;
 }
 
 #schedule .sub-heading {
@@ -933,7 +926,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: var(--white);
+  background-color: #fff;
 }
 
 #schedule .schedule-item time {
@@ -1014,7 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #venue .venue-info h3 {
   font-size: 36px;
   font-weight: 700;
-  color: var(--white);
+  color: #fff;
 }
 
 @media (max-width: 574px) {
@@ -1024,7 +1017,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info p {
-  color: var(--white);
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -1034,8 +1027,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-gallery {
   overflow: hidden;
-  border-right: 3px solid var(--white);
-  border-bottom: 3px solid var(--white);
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 #venue .venue-gallery img {
@@ -1055,7 +1048,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #hotels .hotel {
   border: 1px solid #e0e5fa;
-  background: var(--white);
+  background: #fff;
   margin-bottom: 30px;
 }
 
@@ -1084,7 +1077,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a:hover {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #hotels .stars {
@@ -1119,8 +1112,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-item {
-  border-left: 2px solid var(--white);
-  border-right: 2px solid var(--white);
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
 }
 
 #gallery .owl-dot {
@@ -1133,7 +1126,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-dot.active {
-  background-color: var(--brand);
+  background-color: #f82249;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1141,11 +1134,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid var(--brand);
+  border: 6px solid #f82249;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
-  background: var(--white);
+  background: #fff;
   z-index: 1;
 }
 
@@ -1230,7 +1223,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #faq #faq-list a.collapsed {
@@ -1270,11 +1263,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe .section-header h2,
 #subscribe p {
-  color: var(--white);
+  color: #fff;
 }
 
 #subscribe input {
-  background: var(--white);
+  background: #fff;
   color: #060c22;
   border: 0;
   outline: none;
@@ -1294,8 +1287,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: var(--brand);
-  color: var(--white);
+  background: #f82249;
+  color: #fff;
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
@@ -1359,9 +1352,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: var(--brand);
+  background-color: #f82249;
   border: 0;
-  color: var(--white);
+  color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
@@ -1378,9 +1371,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: var(--brand);
+  background-color: #f82249;
   border: 0;
-  color: var(--white);
+  color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
@@ -1403,7 +1396,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: var(--brand);
+  color: #f82249;
 }
 
 #contact .contact-info address,
@@ -1425,7 +1418,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #contact .contact-address,
@@ -1459,7 +1452,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .php-email-form .error-message {
   display: none;
-  color: var(--white);
+  color: #fff;
   background: #ed3c0d;
   text-align: center;
   padding: 15px;
@@ -1468,7 +1461,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .php-email-form .sent-message {
   display: none;
-  color: var(--white);
+  color: #fff;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1477,7 +1470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .php-email-form .loading {
   display: none;
-  background: var(--white);
+  background: #fff;
   text-align: center;
   padding: 15px;
 }
@@ -1504,7 +1497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: var(--brand);
+  background-color: #f82249;
 }
 
 #contact .php-email-form input {
@@ -1516,10 +1509,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .php-email-form button[type='submit'] {
-  background: var(--brand);
+  background: #f82249;
   border: 0;
   padding: 10px 40px;
-  color: var(--white);
+  color: #fff;
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
@@ -1573,7 +1566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color: var(--white);
+  color: #fff;
 }
 
 #footer .footer-top .footer-info img {
@@ -1586,7 +1579,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
-  color: var(--white);
+  color: #fff;
 }
 
 #footer .footer-top .social-links a {
@@ -1605,18 +1598,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: var(--brand);
-  color: var(--white);
+  background: #f82249;
+  color: #fff;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: var(--white);
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid var(--brand);
+  border-bottom: 2px solid #f82249;
 }
 
 #footer .footer-top .footer-links {
@@ -1631,7 +1624,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: var(--brand);
+  color: #f82249;
   font-size: 18px;
 }
 
@@ -1649,7 +1642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: var(--brand);
+  color: #f82249;
 }
 
 #footer .footer-top .footer-contact {
@@ -1671,12 +1664,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type='submit'] {
-  background: var(--brand);
+  background: #f82249;
   border: 0;
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: var(--white);
+  color: #fff;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1702,7 +1695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border-bottom: 4px solid var(--brand);
+  border-bottom: 4px solid #f82249;
 }
 
 .panellist {
